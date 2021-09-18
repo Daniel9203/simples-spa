@@ -8,7 +8,21 @@
   <body class="container">
     <h1 class="mt-5">Contatinhos</h1>
     <hr>
+    <button data-component="menu" data-action="listar" class="btn btn-outline-dark" >
+      Listar
+    </button>
+    <button data-component="menu" data-action="cadastrar" class="btn btn-outline-dark" >
+      Cadastrar
+    </button>
+    <hr>
 
+    <section data-content="listar" data-component="content" >
+      <h2>Listagem de contato</h2>
+    </section>
+
+    <section data-content="cadastrar"data-component="content" >
+      <h2>Cadastro de contatos</h2>
+    </section>
     <script src="js/eventos.js">
     </script>
   </body>
